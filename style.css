@@ -1,0 +1,96 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto&display=swap');
+
+
+
+nav{
+    background-color:rgb(149, 212, 235);
+    color:rgb(56, 59, 56);
+    text-align: center;
+    height: 90px;
+    padding: 1px;
+    
+    font-size:35px;
+    font-family: 'Libre Baskerville', serif;
+
+
+}
+
+.gameContainer{
+    background-color: aqua ;
+    color:rgb(56, 59, 56);
+    text-align: center;
+    display: flexbox;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+
+}
+
+
+.container{
+    display: grid;
+    justify-content: center;
+    grid-template-rows:repeat(3, 10vw);
+    grid-template-columns:repeat(3, 10vw);
+    font-family: 'Roboto', sans-serif;
+    font-size: 80px;
+    
+
+}
+
+.box{
+    border: 2px solid rgb(92, 11, 11);
+    font-size: 8vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.container :hover{
+    
+    background-color: rgb(90, 159, 177);
+    
+    
+}
+
+.gameResult{
+    padding: 34px;
+    font-size: 18px;
+    background-color:rgb(149, 212, 235);
+}
+
+#reset{
+    padding: 5px 20px;
+    color:rgb(146, 0, 0);
+    justify-content: end;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: bolder;
+    font-style: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px
+
+}
+
+
+
+.br-0{
+    border-right: 0;
+}
+.bl-0{
+    border-left: 0;
+}
+.bt-0{
+    border-top:0;
+
+}
+.bb-0{
+    border-bottom: 0;
+
+}
+
+.result{
+    font-size: 18px;
+    padding: 10px;
+}
